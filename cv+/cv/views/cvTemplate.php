@@ -56,7 +56,7 @@ $cvC = new CVController();
              <img src="uploads/<?PHP echo $cv['img']; ?> " alt="Image" >
             </div>
             <div class="contact-container">
-                <h2 class="title">Contact Me</h2>
+                <h2 class="title">Contactez moi</h2>
                 
                 <div class="contact-list">
                     <div class="icon-container">
@@ -80,11 +80,11 @@ $cvC = new CVController();
             <div class="education-container">
                 <h2 class="title">Education</h2>
                 <div class="course">
-                    <h2 class="education-title">Diploma</h2>
+                    <h2 class="education-title">Diplôme</h2>
                     <h5 class="college-name"><?php echo $cv['dip']; ?>
-                    <h2 class="education-title">University</h2>
+                    <h2 class="education-title">Université:</h2>
                     <h5 class="college-name"> <?php echo $cv['inst']; ?>
-                    <h2 class="education-title">Location</h2>
+                    <h2 class="education-title">Lieu:</h2>
                     <h5 class="college-name"> <?php echo $cv['lieud']; ?></h5>
 
                     <p class="education-date"> <?php echo $cv['ddd']; ?>
@@ -96,7 +96,7 @@ $cvC = new CVController();
             </div>
 
             <div class="skills-container">
-                <h2 class="title">Skills</h2>
+                <h2 class="title">Compétences</h2>
                 <div class="skill">
                     <div class="left-skill">
                         <p><?php echo $cv['comp']; ?></p>
@@ -113,7 +113,7 @@ $cvC = new CVController();
                 <p class="position"><?php echo $cv['prof']; ?></p>
             </div>
             <div class="work-container ">
-                <h2 class="title text-left">About me</h2>
+                <h2 class="title text-left">Sur moi</h2>
                 <div class="work">
                    
                 <p><?php echo $cv['obj']; ?></p>
@@ -123,7 +123,7 @@ $cvC = new CVController();
             </div>
 
             <div class="work-container ">
-                <h2 class="title text-left">work experience</h2>
+                <h2 class="title text-left">Expérience professionnelle</h2>
                 <div class="work">
                     <div class="job-date">
                         <p class="job"><?php echo $cv['poste']; ?></p>
